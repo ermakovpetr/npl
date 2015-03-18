@@ -1,6 +1,3 @@
-# npl
-Hadoop homework
-
 Task:  __Find total payouts by countries__
 
 Structure log file
