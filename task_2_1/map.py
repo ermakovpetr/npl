@@ -14,14 +14,14 @@ for line in sys.stdin:
 
     try:
         uid, timestamp, url = line.split("\t")
-        uid = str(int(uid))
+        uid = int(uid)
         timestamp = int(float(timestamp) * 1000)
         if not url.strip(): raise ValueError
     except ValueError:
         continue
     
     if uid % 256 == N:
-        table.put(uid, {'data:url': url}, timestamp=timestamp)
+        table.put(str(uid), {'data:url': url}, timestamp=timestamp)
 
 
 connection.close()
