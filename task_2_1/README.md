@@ -24,7 +24,7 @@ Folders ```s3n://newprolab/facetz_YYYY_MM_DD/``` with log-files ```part-NNNN```
 
 Create table command *(in hbase shell)*
 ```
-reate 'petr.ermakov', {NAME => 'data', VERSIONS => 2147483647}
+create 'petr.ermakov', {NAME => 'data', VERSIONS => 2147483647}
 ```
 
 Command for start
