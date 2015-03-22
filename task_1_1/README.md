@@ -20,6 +20,8 @@ numbers.txt:
 779
 ```
 
+---
+
 Prepare commands
 ```bash
 hadoop fs -mkdir -p /users/numbers
