@@ -22,7 +22,7 @@ Folders ```s3n://newprolab/facetz_YYYY_MM_DD/``` with log-files ```part-NNNN```
 
 ---
 
-Create table command (in __hbase shell__)
+Create table command *(in hbase shell)*
 ```
 create 'petr.ermakov', {NAME => 'data'}
 ```
