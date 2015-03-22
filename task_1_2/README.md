@@ -29,6 +29,8 @@ Log:
 255.169.47.10, f09daf39fd88ba451b6782a622fcfbc1, Austria, 4bbe36aff95b928258ce264cada9315f, 0.26
 ```
 
+---
+
 Command for start
 ```bash
 hadoop jar hadoop-streaming.jar \
